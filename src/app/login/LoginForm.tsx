@@ -36,10 +36,7 @@ export function LoginForm() {
 
   return (
     <div className={styles.login}>
-      <Icon className={styles.icon} size="xl">
-        <Logo />
-      </Icon>
-      <div className={styles.title}>umami</div>
+      <div className={styles.title}>Statistiques</div>
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput
